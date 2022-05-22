@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: sans-serif;
+    background-color: #FFE3A9;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 3rem 2rem;
+    min-height: 100vh;
+}
+@media (max-width:610px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:320px){
+    html{
+        font-size: 50%;
+    }
+}

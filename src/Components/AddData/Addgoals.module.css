@@ -1,0 +1,20 @@
+input,textarea{
+    width: 100%;
+    padding: 1rem .5rem;
+    font-size: 1.6rem;
+    resize: none;
+    margin-bottom: 1rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+.btn{
+    background-color: black;
+    color: #fff;
+    outline: none;
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
